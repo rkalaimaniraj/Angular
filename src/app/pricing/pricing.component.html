@@ -1,0 +1,19 @@
+<div class="row">
+  @for(item of product; track item.Name) {
+
+  <div class="card d-inline-block m-4" style="width: 400px; height: 470px">
+    <div class="card-body">
+      <img class="card-img-top" src="{{ item.image }}" alt="Card image cap" />
+      <h5 class="card-title">{{ item.Name }}</h5>
+      <p class="card-text">Feature : {{ item.Features }}</p>
+      <p href="#" class="card-text">Model-year : {{ item.Model }}</p>
+      <p href="#" class="card-text">Fuelcapcity : {{ item.Fuelcapcity }}</p>
+      <p (click)="move()" class="card-text">
+        colour-varient : {{ item.Color }}
+      </p>
+      <p class="f">₹{{ item.price }}</p>
+    </div>
+  </div>
+
+  }
+</div>

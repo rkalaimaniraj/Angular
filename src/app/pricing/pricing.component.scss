@@ -1,0 +1,23 @@
+.card {
+  color: rgba(255, 247, 247, 0.822);
+  font-size: 11.5px;
+  font-weight: 800;
+  position: relative;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  left: 100px;
+  background-image: radial-gradient(
+    rgba(255, 0, 0, 0.76),
+    rgba(1, 0, 0, 0.804)
+  );
+}
+.card-title {
+    font-size: 20PX;
+    color: rgb(255, 255, 255);
+   text-shadow: 0 0 5px #ddcdcd, 0 0 5px #fffcfc;
+//    -webkit-text-stroke-color: rgb(137, 26, 4);
+   //-webkit-text-stroke-width: thick;
+}
+img{
+  height: 150px;
+  width: 340px;
+}

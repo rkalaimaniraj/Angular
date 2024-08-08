@@ -1,0 +1,29 @@
+<div class="conatainer-fluid lin" >
+ 
+  <img [src]="arr[i]" alt="" />
+
+  <button class="btn btn-dark  b1" (click)="call1()"><i class="fa-solid fa-rotate-right"></i></button>
+  <button class="btn btn-dark  b2" (click)="call2()"><i class="fa-solid fa-rotate-left"></i></button>
+
+  <div class="d1">
+    <div
+      class="d1"
+      (click)="demo('blue')"
+      style="background-color: rgb(5, 5, 82)"
+    ></div>
+  </div>
+
+  <div class="d1">
+    <div class="bg-dark d1" (click)="demo('black')"></div>
+  </div>
+  <div class="d1">
+    <div class="bg-light d1" (click)="demo('white')"></div>
+  </div>
+  <div class="d1">
+    <div class="bg-danger d1" (click)="demo('red')"></div>
+  </div>
+  
+</div>
+
+  <app-card class="mar"></app-card>
+
